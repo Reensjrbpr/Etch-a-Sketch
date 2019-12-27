@@ -4,9 +4,10 @@ body{
 
 header {
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 950px;
+    max-width: 950px;
 }
 h1 {
     display: inline;
@@ -17,12 +18,13 @@ h1 {
 .grid {
     display: grid;
     margin-top: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     height: 800px;
     border: 2px solid black;
     grid-template-columns: repeat(16, 1fr);
     min-width: 960px;
+    max-width: 960px;
 }
 
 .square {
